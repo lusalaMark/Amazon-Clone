@@ -12,7 +12,7 @@ function Home() {
           alt=""
         />
 
-<div className="home__row">
+        <div className="home__row">
           <Product
             id="12321341"
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
@@ -62,10 +62,9 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
-
       </div>
     </div>
-    );
-};
+  );
+}
 
 export default Home;
